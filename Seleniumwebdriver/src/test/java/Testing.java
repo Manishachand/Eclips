@@ -17,7 +17,7 @@ public class Testing {
 	driver.findElement(By.name("commit")).click();
 	String title=driver.getTitle();
 	System.out.println(title);
-	/*if(title=="Sign in to GitHub · GitHub")
+	if(title=="Sign in to GitHub · GitHub")
 	{
 		System.out.println("stop");
 	}
@@ -26,7 +26,7 @@ public class Testing {
 			System.out.println("Continue");
 	//Assert.assertEquals(title, "Sign in to GitHub · GitHub");
 	
-		}*/
-	Assert.assertEquals(title, "Sign in to GitHub · GitHub");
+		}
+	//Assert.assertEquals(title, "Sign in to GitHub · GitHub");
 }
 }
