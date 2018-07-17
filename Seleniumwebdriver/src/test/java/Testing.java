@@ -27,6 +27,6 @@ public class Testing {
 	//Assert.assertEquals(title, "Sign in to GitHub · GitHub");
 	
 		}
-	//Assert.assertEquals(title, "Sign in to GitHub · GitHub");
+	Assert.assertEquals(title, "Sign in to GitHub · GitHub");
 }
 }
