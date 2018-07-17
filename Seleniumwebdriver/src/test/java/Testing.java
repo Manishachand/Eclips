@@ -19,7 +19,7 @@ public class Testing {
 	System.out.println(title);
 	if(title=="Sign in to GitHub · GitHub")
 	{
-		System.out.println("stop");
+		System.out.println("stopp[");
 	}
 		else
 		{
