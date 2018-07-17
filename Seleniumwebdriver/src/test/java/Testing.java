@@ -17,7 +17,7 @@ public class Testing {
 	driver.findElement(By.name("commit")).click();
 	String title=driver.getTitle();
 	System.out.println(title);
-	if(title=="Sign in to GitHub · GitHub")
+	if(title=="Sign in to GitHub · GiHub")
 	{
 		System.out.println("stopp[");
 	}
