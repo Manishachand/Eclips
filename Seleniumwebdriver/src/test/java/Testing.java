@@ -17,20 +17,12 @@ public class Testing {
 	driver.findElement(By.name("commit")).click();
 	String title=driver.getTitle();
 	System.out.println(title);
-<<<<<<< HEAD
-	if(title=="Sign in to GitHub � GiHub")
-=======
-	if(title=="Sign in to GitHub · GitHub")
->>>>>>> branch 'master' of https://github.com/Manishachand/Eclips.git
-	{
-		System.out.println("stopp[");
-	}
-		else
-		{
-			System.out.println("Contiasgsnue");
-	//Assert.assertEquals(title, "Sign in to GitHub · GitHub");
+
+
+Assert.assertEquals(title, "Sign in to GitHub · GitHub");
 	
 		}
-	///Assert.assertEquals(title, "Sign in to GitHub · GitHub");
 }
-}
+
+
+
