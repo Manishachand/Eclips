@@ -1,17 +1,39 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="9365" started-at="2018-07-17T06:53:49Z" finished-at="2018-07-17T06:53:58Z">
+  <suite name="Suite" duration-ms="25485" started-at="2018-07-18T05:36:58Z" finished-at="2018-07-18T05:37:23Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="9365" started-at="2018-07-17T06:53:49Z" finished-at="2018-07-17T06:53:58Z">
-      <class name="Testing">
-        <test-method status="PASS" signature="testlogin()[pri:0, instance:Testing@46d56d67]" name="testlogin" duration-ms="9325" started-at="2018-07-17T06:53:49Z" finished-at="2018-07-17T06:53:58Z">
+    <test name="Test1" duration-ms="21554" started-at="2018-07-18T05:36:58Z" finished-at="2018-07-18T05:37:19Z">
+      <class name="com.webdriver.Testing">
+        <test-method status="PASS" signature="testlogin(java.lang.String)[pri:0, instance:com.webdriver.Testing@14bf9759]" name="testlogin" duration-ms="21514" started-at="2018-07-18T05:36:58Z" finished-at="2018-07-18T05:37:19Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testlogin -->
-      </class> <!-- Testing -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+      </class> <!-- com.webdriver.Testing -->
+    </test> <!-- Test1 -->
+    <test name="Test2" duration-ms="25485" started-at="2018-07-18T05:36:58Z" finished-at="2018-07-18T05:37:23Z">
+      <class name="com.webdriver.Testing">
+        <test-method status="PASS" signature="testlogin(java.lang.String)[pri:0, instance:com.webdriver.Testing@4bec1f0c]" name="testlogin" duration-ms="25448" started-at="2018-07-18T05:36:58Z" finished-at="2018-07-18T05:37:23Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testlogin -->
+      </class> <!-- com.webdriver.Testing -->
+    </test> <!-- Test2 -->
+  </suite> <!-- Suite -->
 </testng-results>
